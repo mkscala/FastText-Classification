@@ -83,8 +83,11 @@ class Dataset(object):
         :return: dictionary
         Sample:
                 {
-                    'fake_news': 23481,
-                    'true_news': 21417
+                    "sport": 511,
+                    "business": 510,
+                    "politics": 417,
+                    "tech": 401
+                    "entertainment": 386
                 }
         """
         label_count = df[self.label_col].value_counts().to_dict()
