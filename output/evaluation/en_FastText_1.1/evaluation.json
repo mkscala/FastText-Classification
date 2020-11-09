@@ -1,0 +1,16 @@
+{
+    "lang_code": "en",
+    "method": "FastText",
+    "version": "1.1",
+    "clean_text": true,
+    "num_docs": 2225,
+    "label_col": "label",
+    "text_col": "text",
+    "test_size": 0.2,
+    "random_state": 42,
+    "epoch": 200,
+    "lr": 1.0,
+    "wordNgrams": 2,
+    "verbose": 2,
+    "minCount": 1
+}
