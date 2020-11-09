@@ -7,6 +7,8 @@ import pandas as pd
 class Dataset(object):
     """ Class for pre-processing dataset as Pandas DataFrame 
 
+    :param lang_code: language text
+    :param clean_text: boolean flag for cleaning textual content
     :param label_col: label column name in DataFrame
     :param text_col: text column name in DataFrame
     :param test_size: test DataFrame size
